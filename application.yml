@@ -4,8 +4,10 @@ spring:
     password: mysql
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-  hibernate:
-    ddl-auto: update
+    hibernate:
+      ddl-auto: update
+  show-sql: true
+    
 eureka:
   instance:
     prefer-ip-address: true
