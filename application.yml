@@ -1,3 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
 eureka:
   instance:
     prefer-ip-address: true
